@@ -219,6 +219,39 @@
         background-color: #e68a00;
         transition: 1s;
     }
+    #Book_table_heading{
+        font-size: 40px;
+        margin: 70px 0 0 150px;
+    }
+    .Book_A_Table{
+        display: flex;
+        height: 600px;
+        width: 100vw;
+    }
+    #table{
+        border-radius: 10x;
+        margin: 20px 0 0 150px;
+        padding: 6px 30px 6px 25px;
+        width: 500px;
+        height: 50px;
+    }
+    .Book_btn{
+        color: white;
+        background-color: #ffcc00;
+        margin: 20px 0 0 150px;
+        padding: 10px 35px;
+        border-radius: 20px;
+        font-size: 15px;
+        border: none;   
+    }
+    .Book_btn:hover{
+        background-color: #e68a00;
+        transition: 1s;
+    }
+    #map{
+        margin: 140px 0 0 60px;
+        border-radius: 20px;
+    }
 
 
 </style>    
@@ -373,6 +406,28 @@
         <p id="para" class="Font_Family" style="margin-top: 200px;">We Are Spicy</p>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are  going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
         <button class="About_btn">Read More</button>
+    </div>
+</div>
+   <!--Book A Table-->
+   <div class="Book_A_Table">
+    <div class="Book_From">
+        <p id="Book_table_heading" class="Font_Family">Book A Table</p>
+        <input type="text" placeholder="Your Name" required id="table"> <br>
+        <input type="tel" placeholder="Phone Number" required id="table"> <br>
+        <input type="email" placeholder="Your Email"  id="table"> <br>
+        <select name="text" id="table" required>
+            <option value="">How Many Person?</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+        </select> <br>
+        <input type="date" id="table" required> <br>
+        <button class="Book_btn">Read More</button>
+    </div>
+    <div class="Book_Map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.04711156093!2d73.78056543154419!3d18.524598599502376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1723080979293!5m2!1sen!2sin" width="550" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
     </div>
 </div>
 

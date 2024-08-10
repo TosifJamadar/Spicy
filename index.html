@@ -187,6 +187,39 @@
         background-color: #e68a00;
         transition: 1s;
     }
+    
+    .About_Container{
+        display: flex;
+        margin-top: 80px;
+        height: 650px;
+        width: 100vw;
+        background-color:#232946;
+    }
+    #About_img{
+        margin: 50px 0 0 180px;
+        height: 550px;
+        width: 400px;
+    }
+    .About_content{
+        width: 550px;
+       margin-left: 70px;
+       font-size: 18px;
+       color: white;
+    }
+    .About_btn{
+        color: white;
+        background-color:#ffcc00;
+        margin-top: 20px;
+        padding: 10px 35px;
+        border-radius: 20px;
+        font-size: 15px;
+        border: none;  
+    }
+    .About_btn:hover{
+        background-color: #e68a00;
+        transition: 1s;
+    }
+
 
 </style>    
 </head>
@@ -328,6 +361,20 @@
           </div>
       </div>
   </div>
-  <div><button class="Service_btn">View More</button></div>
+  <div>
+    <button class="Service_btn">View More</button>
+</div>
+ <!--About_Us-->
+ <div class="About_Container">
+    <div class="About_img">
+        <img src="./about-img.png" alt="About_img" id="About_img">
+    </div>
+    <div class="About_content">
+        <p id="para" class="Font_Family" style="margin-top: 200px;">We Are Spicy</p>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are  going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+        <button class="About_btn">Read More</button>
+    </div>
+</div>
+
 </body>
 </html>

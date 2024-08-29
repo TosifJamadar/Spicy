@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spicy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -145,6 +147,7 @@
         display: flex;
         height: 420px;
         width: 100vw;
+        flex-wrap: wrap; 
         flex-direction: row;
         justify-content: center;
     }
@@ -202,7 +205,7 @@
         width: 400px;
     }
     .About_content{
-        width: 550px;
+    width: 550px;
        margin-left: 70px;
        font-size: 18px;
        color: white;
@@ -336,6 +339,145 @@
         color: #e3e3e6;
         margin-top:20px;
     }
+    /* @media Quire (Tab View) */
+    @media (max-width:768px){
+        .Nav_Right{
+            float: left;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        #Nav_BTN{
+            margin-left: 10px;
+            font-size: 15px;
+        }
+        .Home_Heading{
+            margin-top: 200px;
+        }
+        .Order_Card{
+            flex-wrap: wrap;
+            height: 500px;
+        }
+        #Menu{
+            margin-left: 200px;
+        }
+        .Menu{
+            height: 820px;
+        }
+        .Service_btn{
+            margin-left: 330px;
+        }
+        .About_Container{
+            flex-wrap: wrap;
+            height: 700px;
+        }
+        #About_img{
+            height: 300px;
+            width: 300px;
+        }
+        .About_img{
+            height: 50px;
+            width: 300px;
+        }
+        .Book_A_Table{
+            flex-wrap: wrap;
+            height: 1000px;
+        }
+        .Book_Map{
+            margin-left: 60px;
+        }
+        .Review{
+            flex-wrap: wrap;
+            height: 400px;
+        }
+        .Footer{
+            flex-wrap: wrap;
+            height: 600px;
+           
+        }
+        .Contact_Us{
+            height: 100px;
+        }
+        .Spicy{
+            margin-top: 0;
+            height: 130px;
+        }
+        .Opening_Hours{
+            margin-top: 0;
+        }
+    }
+       /* @media Quire (Tab View) */
+       @media (max-width:512px){
+        .Nav_Right{
+            margin-left: 100px;
+            text-align: start;
+        }
+        .Home_Heading{
+            margin: 250px 0 0 10px;
+            width: 450px;
+        }
+        .Left_Order_Card{
+            height: 150px;
+            width: 350px;
+        }
+        #Order_img{
+            height: 100px;
+            width: 100px;
+        }
+        #Order_Heding{
+            margin-top: 10px;
+        }
+        #Service_heading{
+            margin-left: 20px;
+        }
+        #Menu{
+            margin-left: 70px;
+        }
+        .Menu{
+            height: 1200px;
+            flex-direction: column;
+        }
+        .Service_btn{
+            margin-left: 200px;
+        }
+        .About_Container{
+            flex-wrap: wrap;
+            height: 700px;
+        }
+        #About_img{
+            height: 250px;
+            width: 300px;
+            margin-left: 100px;
+        }
+        .About_img{
+            height: 50px;
+            width: 300px;
+        }
+        .About_content{
+            width: 450px;
+            margin-left:20px;
+        }
+        #table{
+            height: 30px;
+            width: 300px;
+            margin-left: 100px;
+        }
+        #map{
+            margin:0;
+            height: 300px;
+            width: 400px;
+        }
+        .Left_Review{
+            height: 150px;
+            width: 350px;
+        }
+        #Review_content{
+            padding: 10px 20px 10px 20px;
+        }
+ 
+       }
 </style>    
 </head>
 <body>
@@ -521,7 +663,7 @@
         </div>
         <div class="Left_Review">
             <p id="Review_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quos et sed doloribus magni labore expedita odio perspiciatis harum itaque.</p>
-            <p id="Review_Name">Kiran More<br>Dighanchi</p>
+            <p id="Review_Name">Arbaj jamadar<br>Dighanchi</p>
         </div>
     </div>
     <!--Footer_Page-->
@@ -548,6 +690,5 @@
          </div>
         </div>
      </footer>
- 
 </body>
 </html>
